@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "id": 606,
+      "user": {
+        "id": "xyz01",
+        "name": "Jolene"
+      },
+      "category": "salsa",
+      "organizer": "Mari",
+      "title": "Banda Sonora de Cali",
+      "description": "Salsa and Cumbia from Cali",
+      "location": "Dance Nights",
+      "date": "2022-07-03",
+      "time": "20:00",
+      "attendees": ["Jessie", "Mari"]
+    },
+    {
+      "id": 616,
+      "user": {
+        "id": "xyz02",
+        "name": "S.B."
+      },
+      "category": "banda",
+      "organizer": "S.B.",
+      "title": "Banda",
+      "description": "Three Banda groups from Michoacan",
+      "location": "Jazzy",
+      "date": "2022-10-31",
+      "time": "19:00",
+      "attendees": ["Dana","Kelly","Lizeth","Alex","Emili"]
+    },
+    {
+      "id": 612,
+      "user": {
+        "id": "xyz03",
+        "name": "Mari"
+      },
+      "category": "Throwback",
+      "organizer": "Mari",
+      "title": "90s Throwback",
+      "description": "90s jams",
+      "location": "Oaktown",
+      "date": "2022-09-02",
+      "time": "13:00",
+      "attendees": []
+    }
+  ]
+}

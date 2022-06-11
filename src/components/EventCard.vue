@@ -1,7 +1,7 @@
 <template>
   <router-link
     class="event-link"
-    :to="{ name: 'event-show', params: { id: '1' } }"
+    :to="{ name: 'event-show', params: { id: event.id } }"
   >
     <div class="event-card -shadow">
       <span class="eyebrow">@{{ event.time }} on {{ event.date }}</span>
@@ -18,20 +18,8 @@
 <script>
 import BaseIcon from "./BaseIcon.vue";
 export default {
-  data() {
-    return {
-      event: {
-        id: 1,
-        title: "Banda Sonora de Cali",
-        date: "Tues 28 June 2022",
-        time: "18:00",
-        venue: "Dance Nights",
-        attendees: [
-          { id: "bsc1", name: "Daniel Castillo" },
-          { id: "bsc2", name: "Elsa Martinez" },
-        ],
-      },
-    };
+  props: {
+    event: Object,
   },
   components: { BaseIcon },
 };
